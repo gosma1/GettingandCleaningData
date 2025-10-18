@@ -4,7 +4,7 @@
 This dataset contains measurements from smartphone sensors (accelerometer and gyroscope) collected during human activities.  
 The signals were pre-processed to produce time-domain (`t`) and frequency-domain (`f`) features representing mean and standard deviation of various motion metrics.
 
-Each record corresponds to one subject performing one of several activities, such as walking, sitting, or standing.
+Each record corresponds to the average of the observations of the origional data set where each subject performs one of 6 activities, such as walking, sitting, or standing.
 
 ---
 
@@ -12,7 +12,7 @@ Each record corresponds to one subject performing one of several activities, suc
 
 | Variable | Description | Type | Units / Notes |
 |-----------|--------------|------|----------------|
-| **activity** | Activity performed by the subject (e.g., WALKING, SITTING, STANDING, LAYING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS) | categorical | Activity label |
+| **activity** | Activity performed by the subject (i.e., WALKING, SITTING, STANDING, LAYING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS) | categorical | Activity label |
 | **id_subject** | Identifier of the participant (ranges from 1 to 30) | integer | subject ID |
 | **tBodyAcc-mean()-X** | Mean of body acceleration in X direction (time domain) | numeric | g (gravity units) |
 | **tBodyAcc-mean()-Y** | Mean of body acceleration in Y direction (time domain) | numeric | g |
